@@ -36,12 +36,11 @@ train_split = pd.read_excel('/content/drive/My Drive/Colab Notebooks/DS 340W/dat
 val_split= pd.read_excel('/content/drive/My Drive/Colab Notebooks/DS 340W/data_val.xlsx') # Test set
 test_split= pd.read_excel('/content/drive/My Drive/Colab Notebooks/DS 340W/data_test.xlsx') # Validation set
 ```
-Either replicate the file paths by adding the appropriate folders in your Google Drive or change the file paths to match your current drive organization.
-
-Once the file paths match your Google Drive organization, you will be able to run the colab file. 
+Either replicate the file paths by adding the appropriate folders in your Google Drive or change the file paths to match your current drive organization. Once the file paths match your Google Drive organization, you will be able to run the colab file. 
 
 **One important note, the Genetic clustering algorithm implementation is computationally expensive and does take about 12-15 minutes to run. We included a print() statement in the code that states which K-value in the for loop the file is currently running.
 
 After about 15-20 minutes total, the entire colab file should have run with no errors.
+
 
 
