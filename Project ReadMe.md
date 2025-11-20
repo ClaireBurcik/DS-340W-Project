@@ -28,7 +28,7 @@ Make sure the following packages are installed:
 * topsisx
 * pyclustering
 
-Download the Online Retail.xlsx file and all of the xlsx files from the zip file see in the repository. The file mounts to your google drive to access these files. Each file has the following lines of code to read them into Google Colab:
+Download the Online Retail.xlsx file and all of the .xlsx files from the zip folder in the repository. The colab file mounts to your google drive to access these files. Each file has the following lines of code to read them into Google Colab:
 ```python
 data = pd.read_excel('/content/drive/My Drive/Colab Notebooks/DS 340W/Online Retail.xlsx') # Online Retail Raw data file
 
@@ -43,4 +43,5 @@ Once the file paths match your Google Drive organization, you will be able to ru
 **One important note, the Genetic clustering algorithm implementation is computationally expensive and does take about 12-15 minutes to run. We included a print() statement in the code that states which K-value in the for loop the file is currently running.
 
 After about 15-20 minutes total, the entire colab file should have run with no errors.
+
 
